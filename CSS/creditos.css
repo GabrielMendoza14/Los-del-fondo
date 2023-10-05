@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+#creditos {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    color: rgb(148, 137, 243);
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Star Jedi', sans-serif;
+    animation: credits 60s linear infinite;
+}
+@keyframes credits {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
